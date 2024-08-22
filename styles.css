@@ -1,29 +1,34 @@
 body {
 	background: black;
 }
-* {
-	border: 1px dashed red;
-	min-height: 10px;
+img {
+	padding-right: 10px;
 }
 .postcard {
 	background: white;
 	width: 400px;
-	height: 300px;
+	height: 320px;
 	margin: auto;
+	font-family: cursive;
 }
 .postcard-header {
 	display: flex;
+	padding-left: 10px;
+	margin-top: 10px;
 }
 .postcard-header img {
 	width: 50px;
 	height: 50px;
+	margin-top: 10px;
 }
 .postcard-header h1 {
 	width: 500px;
 	margin: 0px;
+	padding-top: 10px;
 }
 .postcard-body {
 	display: flex;
+	padding-left: 5px;
 }
 .body-left p:first-child {
 	margin-top: 0%;
@@ -33,20 +38,15 @@ body {
 	padding: 10px;
 }
 .input {
-	border: none;
-	border-bottom: gray;
 	font-family: cursive;
-	text-decoration: underline;
 	color: grey;
 }
 .postcard-footer {
 	text-align: center;
+	margin-bottom: 20%;
 }
 button {
-	background-color: rgb(195, 201, 203);
+	background-color: #c3c9cb;
 	padding: 10px;
 	font-family: cursive;
-}
-p {
-	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
